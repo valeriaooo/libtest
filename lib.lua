@@ -2671,6 +2671,8 @@ function a:Close()
     self.open = not self.open
     if self.open then
         inputService.MouseIconEnabled = false
+    elseif game:GetService("RunService").LocalPlayer ~= nil then
+        inputService.MouseIconEnabled = false
     else
         inputService.MouseIconEnabled = self.mousestate
     end
