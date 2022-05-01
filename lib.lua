@@ -13,7 +13,7 @@ local a = {
     tabs = {},
     draggable = true,
     flags = {},
-    title = "Ceri | Legit Cheat",
+    title = "VALERIA | Phantom Forces",
     open = false,
     mousestate = inputService.MouseIconEnabled,
     popup = nil,
@@ -23,8 +23,8 @@ local a = {
     notifications = {},
     tabSize = 0,
     theme = {},
-    foldername = "ceri",
-    fileext = ".cr"
+    foldername = "valeria",
+    fileext = ".val"
 }
 getgenv().library = a
 local b, c, d, e, f
